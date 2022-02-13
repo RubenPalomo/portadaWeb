@@ -1,0 +1,129 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+    background: rgb(0,38,172);
+    background: linear-gradient(0deg, rgba(0,38,172,1) 0%, rgba(0,14,115,1) 100%);
+    background-repeat: no-repeat;
+    margin: 0px;
+    height: 112vh;
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+}
+
+figure{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+
+nav{ 
+    list-style: none;
+    width: 100%;
+    text-align: left;
+    background-color: black;
+    margin: 0px;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+nav li{ 
+    display: inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover, a:active{
+	background-color: white;
+    color: black;
+	cursor: pointer;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.texto{
+    margin: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    color:white;
+    font-size: large;
+    text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -1px grey;
+}
+
+.titulo{
+    padding-bottom: 20px;
+}
+
+#menuIcono{
+    margin-right: 5px;
+    color: white;
+    width: 100%;
+    font-size: medium;
+    margin: -200px;
+    float: left;
+}
+
+#icono{
+    margin-right: 5px;
+}
+
+.borde{
+    border: solid red 2px;
+}
+
+.mostrar{
+    margin-left: 0;
+    visibility: initial;
+}
+
+.ocultar{
+    visibility: hidden;
+}
+  
+@media(max-width:1054px){
+
+    nav{
+        text-align: left;
+        visibility: hidden;
+    }
+
+    nav a{
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: small;
+    }
+
+    nav li{
+        display: block;
+    }
+
+    #menuIcono{
+        margin: 0;
+        padding-left: 5px;
+        padding-top: 3px;
+        margin-bottom: 5px;
+        display: flex;
+    }
+
+    section{
+        margin-top: -160px;
+    }
+}
